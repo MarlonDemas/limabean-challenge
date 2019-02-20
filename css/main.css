@@ -1,3 +1,28 @@
 @import url("https://fonts.googleapis.com/css?family=Roboto|Montserrat");
+body {
+  margin: 0;
+  padding: 0;
+}
+body header {
+  height: 100vh;
+  background: url("../assets/headerBackground.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body header .headerTitle {
+  font-family: "Roboto", sans-serif;
+  color: white;
+  width: 50%;
+  text-align: center;
+  font-size: 4rem;
+  font-weight: 900;
+}
+body header .headerTitle .subTitle {
+  font-size: 1rem;
+  font-weight: 100;
+}
 
 /*# sourceMappingURL=main.css.map */
